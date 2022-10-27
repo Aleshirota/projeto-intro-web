@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+   
+    /* #esquerda1{ 
+
+        border: 1px solid black
+
+    }
+    #esquerda2{
+
+        border:  1px solid black;
+    }
+
+   */
+
+header{
+    position: sticky;
+    top: 0%;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+  background-color: dimgray;
+
+  }
+  
+  main{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    color: #0F4C5C;
+    /* display: flex;  */
+    background-color: aqua;
+    height:  600px;
+   
+  }
+   
+  section{
+    margin: 10px;
+    border: 1px solid black; 
+    padding: 5px;
+    color: #FB8B24;
+    width: 75%;
+  }
+
+  
+  /*  
+  article{
+    margin: 10px;
+    border: 1px solid #FB8B24;
+    padding: 5px;
+    height: 150px;
+    color:#498467;
+  }
+
+  */
+  /* 
+  aside{
+    margin: 10px;
+    border: 1px solid #9A031E;
+    padding: 5px;
+    color: #9A031E;
+    width: 20%;
+  }
+   */
+  
+  footer{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    background-color: dimgray;
+    position: sticky ;
+    bottom: 0%;
+  }
+
+ 

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/* #esquerda1{ 
+
+        border: 1px solid black
+
+    }
+    #esquerda2{
+
+        border:  1px solid black;
+    }
+
+   */
+/* body{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+} */
+
+
+img {
+  
+  width: 190px;
+  height: 150px;
+  border-radius: 15px;
+  
+}
+
+
+#formulário {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .container{
+  
+  flex-direction: column;
+  background-color: rgb(234, 234, 241);
+  border-radius: 10px;
+  gap: 10px 20px;
+  
+} */
+
+#lista1 {
+  display: flex;
+justify-content: center;
+  background-color: rgb(234, 234, 241);
+  border-radius: 10px;
+  
+  
+}
+
+
+
+#lista2{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 234, 241);
+  border-radius: 10px;
+  
+}
+
+#lista3{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 234, 241);
+  border-radius: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  position: sticky;
+  top: 0%;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+  background-color: dimgray;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  color: #0F4C5C;
+  background-color: rgb(187, 221, 221);
+  height: 1000px;
+
+}
+
+section {
+
+  margin: 10px;
+  padding: 5px;
+  color: black;
+  /* width: 75%; */
+  /* border: 1px solid rgb(224, 9, 9); */
+}
+
+
+/*  
+  article{
+    margin: 10px;
+    border: 1px solid #FB8B24;
+    padding: 5px;
+    height: 150px;
+    color:#498467;
+  }
+
+  */
+/* 
+  aside{
+    margin: 10px;
+    border: 1px solid #9A031E;
+    padding: 5px;
+    color: #9A031E;
+    width: 20%;
+  }
+   */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+  background-color: dimgray;
+  position: sticky;
+  bottom: 0%;
+}
+
+
+
+@media screen and (max-device-width : 480px){
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    background-color: dimgrey;
+  }
+
+}
+
+
+
+/* section{
+  display: flex;
+  flex-direction: column;
+  background-color: slategrey;
+
+} */
+
+
+
+
+
+
+
+
+
